@@ -1,0 +1,35 @@
+{
+	"version": "0.1",
+	"name": "Meetmap",
+	"description": "Meet your friend anywhere",
+	"launch_path": "/index.html",
+	"appcache_path": "/offline.appcache",
+	"icons": {
+		"16": "/img/icons/logo.svg",
+		"48": "/img/icons/logo.svg",
+		"128": "/img/icons/logo.svg"
+	},
+	"developer": {
+		"name": "scopyleft",
+		"url": "http://scopyleft.fr"
+	},
+	"installs_allowed_from": ["*"],
+	"locales": {
+		"fr": {
+			"description": "Donnez rendez-vous à vos amis n'importe où",
+			"developer": {
+				"url": "http://scopyleft.fr"
+			}
+		}
+	},
+	"default_locale": "en",
+	"permissions": {
+		"systemXHR": {},
+        "desktop-notification": {
+            "description": "To show notifications"
+        },
+        "geolocation": {
+            "description": "Marking out user location"
+        }
+	}
+}
