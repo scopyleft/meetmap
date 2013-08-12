@@ -7,6 +7,7 @@
 	"icons": {
 		"16": "/img/icons/logo.svg",
 		"48": "/img/icons/logo.svg",
+		"64": "/img/icons/logo.svg",
 		"128": "/img/icons/logo.svg"
 	},
 	"developer": {
