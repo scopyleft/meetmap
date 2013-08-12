@@ -7,3 +7,6 @@ Header set Pragma "no-cache"
 Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </ifModule>
 </filesMatch>
+
+AddType application/x-web-app-manifest+json .webapp
+AddHandler x-web-app-manifest+json .webapp
